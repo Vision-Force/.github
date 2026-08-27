@@ -63,7 +63,7 @@ public.
 - Any service or API operated by Vision Force Studio at a
   visionforceofficial.com hostname.
 - Source code published in repositories under
-  <https://github.com/Vision-Force>, including Meridian.
+  <https://github.com/Vision-Force>, including Rocket Racing Reborn.
 - The Vision Force Discord server's own configuration and bots, where operated by
   the studio.
 

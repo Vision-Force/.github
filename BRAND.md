@@ -115,7 +115,7 @@
 > | **violet** | `#a855f7` | **HERO ACCENT.** The studio colour. Used generously. |
 > | violet blue | `#8b5cff` | violet's companion in the plus field |
 > | Reality Cross | `#a02bfe` | project accent, README text only |
-> | cyan | `#47d1ff` | secondary accent, and the Meridian / server colour |
+> | cyan | `#47d1ff` | secondary accent, and the Rocket Racing Reborn / server colour |
 > | blue | `#3b82f6` | plus field |
 > | deep blue | `#1273ea` | gradient end only |
 > | steel blue | `#6ea8dc` | dim plusses |
@@ -126,7 +126,7 @@
 >
 > **Rule:** violet leads. Across the whole asset set the violet family (`#a855f7` plus `#8b5cff`) should be
 > roughly 40 percent of coloured marks, cyan roughly 25, blue 15, steel 10, green 5, near white 2, deep blue 3.
-> The ONE exception is `section-server.svg`, which flips to cyan lead because it is the Meridian band.
+> The ONE exception is `section-server.svg`, which flips to cyan lead because it is the Rocket Racing Reborn band.
 >
 > ---
 >
@@ -361,8 +361,8 @@
 > - Short sentences, around 11 words on average. Second person where it addresses a reader.
 > - Sentence case. Acronyms stay upper: UEFN, LUX3, UE5.
 > - Headings take no full stop. Body copy does.
-> - Never claim a shipped feature for Meridian. It is early and in development.
-> - Meridian copy says: an original re-implementation of network services; players bring their own archived
+> - Never claim a shipped feature for Rocket Racing Reborn. It is early and in development.
+> - Rocket Racing Reborn copy says: an original re-implementation of network services; players bring their own archived
 >   client; no download link of any kind; not affiliated with or endorsed by Epic Games; Fortnite and Unreal
 >   are trademarks of Epic Games, Inc; non commercial. That note gets a real heading and normal body size.
 

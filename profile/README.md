@@ -101,22 +101,22 @@ and in the roadmap, where it can be argued with and voted on.
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Meridian-in%20development-8b5cff?style=for-the-badge&labelColor=050506" width="228" height="28" alt="Meridian is in development" />
+<img src="https://img.shields.io/badge/Rocket%20Racing%20Reborn-in%20development-8b5cff?style=for-the-badge&labelColor=050506" width="228" height="28" alt="Rocket Racing Reborn is in development" />
 <img src="https://img.shields.io/badge/client-bring%20your%20own-47d1ff?style=for-the-badge&labelColor=050506" width="213" height="28" alt="Bring your own archived client" />
 <img src="https://img.shields.io/badge/commercial%20use-none-34d399?style=for-the-badge&labelColor=050506" width="195" height="28" alt="No commercial use" />
 
 </div>
 
-Meridian is the reason this organisation exists.
+Rocket Racing Reborn, codename Meridian, is the reason this organisation exists.
 
 It is an original re-implementation of the network services that an archived Fortnite
 build expects to talk to. The services are written from scratch, so that an old build can
 be played privately again by the people who still have one.
 
-Meridian is early and in development. Nothing about it is finished, and no feature of it
+It is early and in development. Nothing about it is finished, and no feature of it
 is shipped. Treat everything written here as intent, not as a release note.
 
-Meridian contains no Epic Games code and no Epic Games assets. It is the server side only:
+It contains no Epic Games code and no Epic Games assets. It is the server side only:
 the endpoints an archived client tries to reach, reimplemented as original work.
 
 There is no download here, and there will not be one. Players bring their own archived
@@ -124,7 +124,7 @@ client. This project does not host one, does not link one, and does not help any
 one.
 
 > [!NOTE]
-> Meridian ships no game client and no game files. You bring your own archived build, and
+> Rocket Racing Reborn ships no game client and no game files. You bring your own archived build, and
 > this project only ever supplies the network services that build talks to.
 
 ### Scope and trademarks

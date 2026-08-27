@@ -56,6 +56,6 @@ Vision Force Studio cannot help with Epic Games accounts, Fortnite itself, or
 Unreal Engine licensing. It is not affiliated with or endorsed by Epic Games.
 Fortnite and Unreal are trademarks of Epic Games, Inc.
 
-Meridian is an original re-implementation of network services and is early, in
+Rocket Racing Reborn is an original re-implementation of network services and is early, in
 development. The studio does not distribute game clients or builds, and cannot
 help you find one. Requests for downloads will not be answered.

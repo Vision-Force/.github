@@ -23,7 +23,7 @@ If a report is closed without a fix, the reason will be written in the thread.
 | Vaelora Velocity | Unreal Engine 5 | Rocket Racing, rebuilt from the ground up. |
 | LUX3 | UEFN | Every sunset track, brought back to the light. |
 | The Reality Cross | UEFN Event | The moment Vaelora Velocity left the Fortnite Loop. |
-| Meridian | Server software | An original re-implementation of the network services an archived Fortnite build expects. Early, in development. |
+| Rocket Racing Reborn | Server software | An original re-implementation of the network services an archived Fortnite build expects. Early, in development. |
 | Website | visionforceofficial.com | The public roadmap and voting site. |
 
 ## Reporting a bug
@@ -95,7 +95,7 @@ or copied source, no engine or game files, no extracted meshes, textures, audio,
 maps or configuration, and no material derived from a leaked build. This applies
 to pull requests, issue attachments, and links posted in threads.
 
-Meridian is an original re-implementation of network services. It does not
+Rocket Racing Reborn is an original re-implementation of network services. It does not
 contain, ship or redistribute Epic Games code or assets, and it never will.
 Players bring their own archived client. Do not post client downloads or links
 to them in any Vision Force space.
