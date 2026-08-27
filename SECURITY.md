@@ -1,7 +1,7 @@
 # Security Policy
 
-Vision Force Studio takes security reports seriously. This page is the real
-process, not a formality.
+Vision Force Studio takes security reports seriously. This page is the
+process
 
 ## Reporting a vulnerability
 
@@ -29,8 +29,8 @@ Please report only what you found using your own accounts and your own data.
 
 ## What to expect
 
-Vision Force Studio is run by one person as a hobby project, so the timings
-below are commitments about effort, not a staffed rota.
+Vision Force Studio is run by one person as a fun project, so the timings
+below are commitments about effort
 
 | Stage | Target |
 | --- | --- |

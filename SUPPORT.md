@@ -46,8 +46,7 @@ you still cannot connect, that is worth an email.
 ## Follow progress
 
 - Website: <https://visionforceofficial.com>
-- YouTube: <https://www.youtube.com/@VaeloraVelocity>
-- TikTok: <https://www.tiktok.com/@vaeloravelocity>
+- YouTube: <https://www.youtube.com/@visionforcegames>
 
 ## What support cannot cover
 

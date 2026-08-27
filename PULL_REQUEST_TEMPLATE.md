@@ -1,6 +1,6 @@
 # What changed
 
-<!-- One or two sentences. What a reader would see differently after this lands. -->
+<!-- One or two sentences. What a reader would see differently after thisgets send -->
 
 ## Why
 
@@ -29,5 +29,4 @@
 
 ## Notes for review
 
-<!-- Optional. Anything you are unsure about, a trade off you made, or a part
-     worth a closer look. -->
+<!-- else -->

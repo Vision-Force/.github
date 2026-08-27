@@ -1,67 +1,63 @@
 # Contributing to Vision Force
 
-Thank you for taking the time. This page explains what is useful to send, and
+Thank you for taking the time to read this. This page explains what is useful to send, and
 what happens after you send it.
 
 ## Who you are talking to
 
-Vision Force Studio is a one person fan project, run as a hobby.
-[@ShrezesUverse](https://github.com/ShrezesUverse) reads and answers what
-arrives here. That has two honest consequences.
+Vision Force Studio is maintained by me
+[@ShrezesUverse](https://github.com/ShrezesUverse) I read and answer what
+you send.
 
-- Replies take time. Days is normal, longer when a build is in progress. Silence
-  is not a judgement on your report.
+- Replies take time. Days is normal, longer when a build is in progress.
 - Small, self contained reports get answered first, because they can be acted on
   in one sitting.
 
 If a report is closed without a fix, the reason will be written in the thread.
 
-## The projects
+## projects
 
-| Project | Kind | What it is |
+| Project | Made in/with (kind) | description |
 | --- | --- | --- |
-| Vaelora Velocity | Unreal Engine 5 | Rocket Racing, rebuilt from the ground up. |
-| LUX3 | UEFN | Every sunset track, brought back to the light. |
-| The Reality Cross | UEFN Event | The moment Vaelora Velocity left the Fortnite Loop. |
-| Rocket Racing Reborn | Server software | An original re-implementation of the network services an archived Fortnite build expects. Early, in development. |
-| Website | visionforceofficial.com | The public roadmap and voting site. |
-
+| Vaelora Velocity | Unreal Engine 5 | Rocket Racing, rebuilt from the ground up. Early, in development. |
+| LUX3 | UEFN | Every sunset track, brought back to the light. Frozen until Epic fixes rocket racing tools for UEFN |
+| The Reality Cross | UEFN Event | The moment Vaelora Velocity left the Fortnite Loop, described how the idea came about. Early, in development. |
+| Rocket Racing Reborn | Server software | re implementation of the network services an archived Fortnite build expects. Early, in development. |
+| visionforceofficial.com | Website | The public roadmap and voting site |
+| rocketracingarchive.com | Website | Rocket Racing documented |
 ## Reporting a bug
 
-Open a bug report through the issue form. Before you do, two checks that save
-everyone a round trip:
+Open a bug report through the issue form
 
-1. Search the open and closed issues for the same symptom.
-2. Confirm it still happens on the current build.
+1. Search the open and closed issues for the same type
+2. Confirm it still happens on the current build
 
 A good report answers four things: what you did, what you expected, what
-happened instead, and how often it repeats. Exact numbers beat adjectives, so
-"the car loses about half its speed on any wall contact" is worth more than "the
-collisions feel wrong". Attach a log if you have one. A short clip helps for
+happened instead, and how often it repeats. Exact numbers, so
+"the car loses about half its speed on any wall contact" is better than "the
+collisions feel wrong". Attach files if you have one. A short clip helps for
 anything about feel or timing.
 
 Never paste anything into an issue that you are not free to share, including
-account credentials, tokens, or private build files.
+account credentials, tokens, or private build files. This is kinda private information
 
 ## Proposing a feature
 
 Feature ideas belong in one of two places.
 
 - Gameplay and roadmap ideas: post them on the public roadmap at
-  <https://visionforceofficial.com>, where they can be voted on. That vote is
+  <https://visionforceofficial.com/rrr>, where they can be voted on. That vote is
   what decides build order.
 - Changes to code, tooling or documentation in a Vision Force repository: open a
   feature request through the issue form here.
 
 Start with the problem, not the solution. Describe what is awkward today, who it
 affects, and what you tried instead. A proposal that names its own trade offs is
-far more likely to be picked up than one that only lists benefits.
+far more likely to be picked up than one that only lists benefits
 
 ## Sending a change
 
-There is no obligation to send code. If you want to:
-
-1. Open an issue first for anything larger than a typo, so the direction can be
+1. Open an issue first for anything large, so the direction can be
    agreed before you spend time.
 2. Fork, branch, and keep the change to one subject.
 3. Open a pull request and fill in the template.
@@ -75,30 +71,20 @@ docs/short-subject      documentation only
 chore/short-subject     build, tooling, formatting
 ```
 
-Commit messages: a short imperative summary on the first line, under about 72
-characters, then a blank line, then the reasoning if it is not obvious.
+Commit messages: a short summary on the first line, under about 72
+characters, then a blank line, then the reasoning if it is not obvious
 
 ```
 fix: keep the drift boost charge across a respawn
 
-The charge was reset on pawn possession, which also fires on respawn.
+The charge was reset on pawn place, which also triggers on respawn.
 ```
 
 Match the style of the file you are editing rather than reformatting it. A
-formatting sweep mixed into a behaviour change makes the behaviour change
+formatting change mixed into a behaviour change makes the behaviour change
 impossible to review.
 
-## The rule that has no exceptions
-
-**No Epic Games code or assets in any contribution.** That means no decompiled
-or copied source, no engine or game files, no extracted meshes, textures, audio,
-maps or configuration, and no material derived from a leaked build. This applies
-to pull requests, issue attachments, and links posted in threads.
-
-Rocket Racing Reborn is an original re-implementation of network services. It does not
-contain, ship or redistribute Epic Games code or assets, and it never will.
-Players bring their own archived client. Do not post client downloads or links
-to them in any Vision Force space.
+## important
 
 Vision Force Studio is not affiliated with or endorsed by Epic Games. Fortnite
 and Unreal are trademarks of Epic Games, Inc.

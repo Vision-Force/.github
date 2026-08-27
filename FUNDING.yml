@@ -1,9 +1,6 @@
 # Vision Force Studio has no funding platform set up. Every key below stays
-# commented out. To enable one later, uncomment exactly one line and put the real
-# account name after the colon, then commit. GitHub shows a Sponsor button once
-# at least one key has a value. Do not add a placeholder or a guessed handle: an
-# unknown account makes the button point at nothing.
-#
+# commented out for now.
+
 # Reference: https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository
 
 # github: []
