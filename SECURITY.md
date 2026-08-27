@@ -80,7 +80,7 @@ public.
   Studio does not distribute them and cannot patch them.
 - Findings from automated scanners with no demonstrated impact, missing security
   headers on their own, and reports whose only content is a tool score.
-- Social engineering of studio members or community volunteers, physical
+- Social engineering of the maintainer, physical
   attacks, denial of service and volumetric testing, and spam or rate limit
   probing against live services.
 

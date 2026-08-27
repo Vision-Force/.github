@@ -5,9 +5,9 @@ what happens after you send it.
 
 ## Who you are talking to
 
-Vision Force Studio is a fan team of community volunteers, having a studio as a
-hobby project. One person, [@ShrezesUverse](https://github.com/ShrezesUverse),
-reads and answers what arrives here. That has two honest consequences.
+Vision Force Studio is a one person fan project, run as a hobby.
+[@ShrezesUverse](https://github.com/ShrezesUverse) reads and answers what
+arrives here. That has two honest consequences.
 
 - Replies take time. Days is normal, longer when a build is in progress. Silence
   is not a judgement on your report.

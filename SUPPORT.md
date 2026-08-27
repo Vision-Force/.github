@@ -1,8 +1,7 @@
 # Support
 
-Vision Force Studio is a fan team of community volunteers, having a studio as a
-hobby project. One person answers, so please pick the channel that matches what
-you need.
+Vision Force Studio is a one person fan project, run as a hobby. One person
+answers, so please pick the channel that matches what you need.
 
 ## Email, for anything needing a human answer
 
