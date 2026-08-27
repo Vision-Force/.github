@@ -1,0 +1,129 @@
+name: "Bug report"
+description: "Something behaves differently from what you expected."
+labels: ["bug", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for the report.
+
+        One person reads these, so replies take days rather than hours. Small,
+        self contained reports get answered first.
+
+        Before you file, please search the open and closed issues for the same
+        symptom, and confirm it still happens on the current build.
+
+        Do not report a security vulnerability here. Follow the security policy
+        instead. Do not attach credentials, tokens, or private build files.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: "What happened"
+      description: "Describe the behaviour you saw. Exact numbers beat adjectives."
+      placeholder: "The car keeps its drift charge through a respawn, and the boost fires on its own at the start line."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: "What you expected instead"
+      description: "Say what you thought would happen, and why."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to reproduce"
+      description: "Numbered steps, starting from a fresh launch."
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: project
+    attributes:
+      label: "Project"
+      description: "Which one is affected."
+      options:
+        - "Vaelora Velocity"
+        - "LUX3"
+        - "The Reality Cross"
+        - "Meridian"
+        - "Website"
+        - "Other"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: "How often does it happen"
+      options:
+        - "Every time"
+        - "Most attempts"
+        - "Now and then"
+        - "Seen once"
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: "Version or build"
+      description: "The build number, release tag, or commit you were running. Write unknown if you cannot find it."
+      placeholder: "0.4.2, or commit a1b2c3d"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: "Platform"
+      options:
+        - "Windows"
+        - "macOS"
+        - "Linux"
+        - "Console"
+        - "Mobile"
+        - "Browser"
+        - "Other"
+    validations:
+      required: true
+
+  - type: input
+    id: hardware
+    attributes:
+      label: "Hardware or browser detail"
+      description: "Optional. GPU, driver version, or browser and version."
+      placeholder: "RTX 3060, driver 552.22"
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Logs and attachments"
+      description: "Paste the relevant log lines, or drag in a log file or a short clip. This box is formatted as code, so no backticks are needed."
+      render: text
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: "Before submitting"
+      options:
+        - label: "I searched the open and closed issues and did not find this."
+          required: true
+        - label: "This is not a security vulnerability."
+          required: true
+        - label: "My report contains no Epic Games code or assets, and no credentials."
+          required: true
+        - label: "I agree to follow the Code of Conduct."
+          required: true

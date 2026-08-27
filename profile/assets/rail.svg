@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="72" viewBox="0 0 46 72"><title>Vision Force charge rail marker</title>
+<defs>
+  <linearGradient id="railCy" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#47d1ff"/>
+    <stop offset="1" stop-color="#1273ea"/>
+  </linearGradient>
+  <linearGradient id="railVi" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#a855f7"/>
+    <stop offset="1" stop-color="#6d28d9"/>
+  </linearGradient>
+  <linearGradient id="railBg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0d1a2e"/>
+    <stop offset="1" stop-color="#0a1425"/>
+  </linearGradient>
+  <!-- DYNAMIC BRAND GRADIENT. All three stops share dur 15s so they travel together
+       and the ramp never tears. The whole ramp also rotates on a 23s cycle. -->
+  <linearGradient id="railMark" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#f4f6fb">
+      <animate attributeName="stop-color"
+        values="#f4f6fb;#e9d8ff;#d8f4ff;#ffe4f2;#f4f6fb"
+        dur="15s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="0.45" stop-color="#a855f7">
+      <animate attributeName="stop-color"
+        values="#a855f7;#47d1ff;#ff2e4d;#8b5cff;#a855f7"
+        dur="15s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="1" stop-color="#6d28d9">
+      <animate attributeName="stop-color"
+        values="#6d28d9;#1273ea;#a02bfe;#0ea5b7;#6d28d9"
+        dur="15s" repeatCount="indefinite"/>
+    </stop>
+    <animateTransform attributeName="gradientTransform" type="rotate"
+      values="0 0.5 0.5; 360 0.5 0.5" dur="23s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="railSpark" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#9beaff"/>
+    <stop offset="0.55" stop-color="#47d1ff"/>
+    <stop offset="1" stop-color="#7aa2ff"/>
+  </linearGradient>
+  <radialGradient id="railTop" cx="0.5" cy="0" r="1">
+    <stop offset="0" stop-color="#ffffff" stop-opacity="0.075"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="railDots" width="14" height="14" patternUnits="userSpaceOnUse">
+    <circle cx="7" cy="7" r="1.1" fill="#9aa8c4" opacity="0.13"/>
+  </pattern>
+  <pattern id="railDotsFine" width="16" height="16" patternUnits="userSpaceOnUse">
+    <circle cx="4" cy="4" r="0.8" fill="#9aa8c4" opacity="0.07"/>
+  </pattern>
+  <linearGradient id="railMaskH" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0"    stop-color="#000000"/>
+    <stop offset="0.34" stop-color="#3a3a3a"/>
+    <stop offset="0.72" stop-color="#c8c8c8"/>
+    <stop offset="1"    stop-color="#ffffff"/>
+  </linearGradient>
+  <mask id="railFadeR" maskContentUnits="objectBoundingBox">
+    <rect x="0" y="0" width="1" height="1" fill="url(#railMaskH)"/>
+  </mask>
+  <filter id="railSoft" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="7"/>
+  </filter>
+  <filter id="railSoftTight" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="2.6"/>
+  </filter>
+</defs>
+
+<!-- STATIC RAILS. Every branch restarts at y=0, so the trunk is overdrawn three times
+     and reads brighter at the top. That overdraw is intentional. Do not merge the paths. -->
+<path d="M12 0V4Q12 12 20 12H29" fill="none" stroke="#2a4a78" stroke-width="1.7" stroke-linecap="round" opacity="0.9"/>
+<path d="M12 0V28Q12 36 20 36H29" fill="none" stroke="#2a4a78" stroke-width="1.7" stroke-linecap="round" opacity="0.9"/>
+<path d="M12 0V52Q12 60 20 60H29" fill="none" stroke="#2a4a78" stroke-width="1.7" stroke-linecap="round" opacity="0.9"/>
+
+<!-- CHARGE, branch 1. Wide faint glow under, thin bright core over. -->
+<path d="M12 0V4Q12 12 20 12H29" fill="none" stroke="url(#railSpark)" stroke-width="5.5" opacity="0.22" stroke-dasharray="4 32" stroke-linecap="round">
+  <animate attributeName="stroke-dashoffset" from="0" to="-36" dur="1.8s" repeatCount="indefinite"/>
+</path>
+<path d="M12 0V4Q12 12 20 12H29" fill="none" stroke="url(#railSpark)" stroke-width="2" opacity="0.95" stroke-dasharray="4 32" stroke-linecap="round">
+  <animate attributeName="stroke-dashoffset" from="0" to="-36" dur="1.8s" repeatCount="indefinite"/>
+</path>
+
+<!-- CHARGE, branch 2. -->
+<path d="M12 0V28Q12 36 20 36H29" fill="none" stroke="url(#railSpark)" stroke-width="5.5" opacity="0.22" stroke-dasharray="4 32" stroke-linecap="round">
+  <animate attributeName="stroke-dashoffset" from="0" to="-36" dur="1.8s" repeatCount="indefinite"/>
+</path>
+<path d="M12 0V28Q12 36 20 36H29" fill="none" stroke="url(#railSpark)" stroke-width="2" opacity="0.95" stroke-dasharray="4 32" stroke-linecap="round">
+  <animate attributeName="stroke-dashoffset" from="0" to="-36" dur="1.8s" repeatCount="indefinite"/>
+</path>
+
+<!-- CHARGE, branch 3. -->
+<path d="M12 0V52Q12 60 20 60H29" fill="none" stroke="url(#railSpark)" stroke-width="5.5" opacity="0.22" stroke-dasharray="4 32" stroke-linecap="round">
+  <animate attributeName="stroke-dashoffset" from="0" to="-36" dur="1.8s" repeatCount="indefinite"/>
+</path>
+<path d="M12 0V52Q12 60 20 60H29" fill="none" stroke="url(#railSpark)" stroke-width="2" opacity="0.95" stroke-dasharray="4 32" stroke-linecap="round">
+  <animate attributeName="stroke-dashoffset" from="0" to="-36" dur="1.8s" repeatCount="indefinite"/>
+</path>
+
+<!-- NODES. The whole flash fires in the first 0.36s, then 80 percent dead air.
+     The LOWEST node fires first, extending the 1.2 and 0.6 stagger by the same step. -->
+<g transform="translate(32,60)">
+  <circle r="3" fill="#47d1ff" opacity="0">
+    <animate attributeName="opacity" values="0.3;0;0" dur="1.8s" keyTimes="0;0.2;1" begin="0s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="3;9;9" dur="1.8s" keyTimes="0;0.2;1" begin="0s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3.5" fill="none" stroke="#47d1ff" stroke-width="1" opacity="0.32">
+    <animate attributeName="opacity" values="0.9;0.32;0.32" dur="1.8s" keyTimes="0;0.2;1" begin="0s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="2" fill="#9beaff" opacity="0.55">
+    <animate attributeName="opacity" values="1;0.55;0.55" dur="1.8s" keyTimes="0;0.2;1" begin="0s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="2.9;2;2" dur="1.8s" keyTimes="0;0.2;1" begin="0s" repeatCount="indefinite"/>
+  </circle>
+</g>
+<g transform="translate(32,36)">
+  <circle r="3" fill="#47d1ff" opacity="0">
+    <animate attributeName="opacity" values="0.3;0;0" dur="1.8s" keyTimes="0;0.2;1" begin="0.6s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="3;9;9" dur="1.8s" keyTimes="0;0.2;1" begin="0.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3.5" fill="none" stroke="#47d1ff" stroke-width="1" opacity="0.32">
+    <animate attributeName="opacity" values="0.9;0.32;0.32" dur="1.8s" keyTimes="0;0.2;1" begin="0.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="2" fill="#9beaff" opacity="0.55">
+    <animate attributeName="opacity" values="1;0.55;0.55" dur="1.8s" keyTimes="0;0.2;1" begin="0.6s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="2.9;2;2" dur="1.8s" keyTimes="0;0.2;1" begin="0.6s" repeatCount="indefinite"/>
+  </circle>
+</g>
+<g transform="translate(32,12)">
+  <circle r="3" fill="#47d1ff" opacity="0">
+    <animate attributeName="opacity" values="0.3;0;0" dur="1.8s" keyTimes="0;0.2;1" begin="1.2s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="3;9;9" dur="1.8s" keyTimes="0;0.2;1" begin="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3.5" fill="none" stroke="#47d1ff" stroke-width="1" opacity="0.32">
+    <animate attributeName="opacity" values="0.9;0.32;0.32" dur="1.8s" keyTimes="0;0.2;1" begin="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="2" fill="#9beaff" opacity="0.55">
+    <animate attributeName="opacity" values="1;0.55;0.55" dur="1.8s" keyTimes="0;0.2;1" begin="1.2s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="2.9;2;2" dur="1.8s" keyTimes="0;0.2;1" begin="1.2s" repeatCount="indefinite"/>
+  </circle>
+</g>
+
+<!-- PLUS FIELD: three marks, one group. The group now travels a slow closed curve
+     instead of sitting still, and each mark rides its own small curved orbit on top.
+     Every orbit here is biased inward, because the marks already sit near the edges of
+     a 46 by 72 canvas and an outward loop would clip them. -->
+<g>
+  <animateMotion dur="30s" repeatCount="indefinite"
+    path="M0,0 C -1.8,-1 -4.2,-1.8 -4.8,-0.8 C -5.4,0.2 -3,0.6 -1,0.4 C 1,0.2 1.2,0.2 0,0 Z"/>
+  <g transform="translate(38.4,5.2)">
+    <animateMotion dur="9s" begin="1.2s" repeatCount="indefinite"
+      path="M0,0 C 2,1.4 4,1 4,-0.8 C 4,-2.6 1.4,-3 -0.6,-2 C -2.6,-1 -1.6,-0.6 0,0 Z"/>
+    <animateTransform attributeName="transform" type="rotate"
+      values="0;360" dur="26s" repeatCount="indefinite" additive="sum"/>
+    <path d="M-3 0H3M0 -3V3" stroke="#a855f7" stroke-width="1.7" stroke-linecap="round" opacity="0.46">
+      <animate attributeName="opacity" values="0.46;0.17;0.46" dur="5.1s" begin="0.9s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g transform="translate(5.8,44.1)">
+    <animateMotion dur="13s" begin="7.4s" repeatCount="indefinite"
+      path="M0,0 C 2.2,-1.2 4.6,-0.8 4.6,0.8 C 4.6,2.4 2,2.8 0.2,1.8 C -1.6,0.8 -1.2,0.6 0,0 Z"/>
+    <animateTransform attributeName="transform" type="rotate"
+      values="0;360" dur="33s" repeatCount="indefinite" additive="sum"/>
+    <path d="M-3 0H3M0 -3V3" stroke="#6ea8dc" stroke-width="1.6" stroke-linecap="round" opacity="0.31"/>
+  </g>
+  <!-- The lowest mark carries the dynamic brand gradient, so this small asset still
+       shows the colour cycle. Its orbit runs upward only, to clear the bottom edge. -->
+  <g transform="translate(41.6,68.4)">
+    <animateMotion dur="11s" begin="4.5s" repeatCount="indefinite"
+      path="M0,0 C -2,-1.2 -4.4,-1 -4.4,-2.6 C -4.4,-4.2 -1.8,-4.6 0,-3.6 C 1.8,-2.6 1.2,-1.2 0,0 Z"/>
+    <path d="M-3 0H3M0 -3V3" stroke="url(#railMark)" stroke-width="1.8" stroke-linecap="round" opacity="0.9"/>
+  </g>
+</g>
+</svg>

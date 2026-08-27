@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="84" viewBox="0 0 300 84">
+<title>Vision Force link card, email the studio</title>
+<defs>
+  <linearGradient id="emlCard" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0d1a2e"/>
+    <stop offset="1" stop-color="#0a1425"/>
+  </linearGradient>
+  <linearGradient id="emlBar" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#47d1ff">
+      <animate attributeName="stop-color" values="#47d1ff;#1273ea;#47d1ff" dur="12s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="1" stop-color="#1273ea">
+      <animate attributeName="stop-color" values="#1273ea;#47d1ff;#1273ea" dur="12s" repeatCount="indefinite"/>
+    </stop>
+  </linearGradient>
+  <linearGradient id="emlPlate" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#47d1ff" stop-opacity="0.16"/>
+    <stop offset="1" stop-color="#1273ea" stop-opacity="0.05"/>
+  </linearGradient>
+  <radialGradient id="emlTop" cx="0.5" cy="0" r="1">
+    <stop offset="0" stop-color="#ffffff" stop-opacity="0.055"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+  <clipPath id="emlClip"><rect x="0" y="0" width="300" height="84" rx="16"/></clipPath>
+</defs>
+<rect x="0" y="0" width="300" height="84" rx="16" fill="url(#emlCard)"/>
+<g clip-path="url(#emlClip)">
+<g><animateMotion dur="27s" repeatCount="indefinite" path="M0,0 C 4,-1.6 9,-1 10,1 C 11,3 7,5 2,4.5 C -3,4 -4,2 -2,0.8 C -1,0.3 -0.5,0.15 0,0 Z"/><path d="M117.9 19.6H125.1M121.5 16.0V23.3" stroke="#47d1ff" stroke-width="1.9" stroke-linecap="round" opacity="0.33"><animate attributeName="opacity" values="0.33;0.12;0.33" dur="3.2s" begin="5.1s" repeatCount="indefinite"/></path><path d="M198.0 15.8H205.4M201.7 12.1V19.5" stroke="#47d1ff" stroke-width="1.9" stroke-linecap="round" opacity="0.34"/><path d="M57.0 7.1H63.3M60.1 3.9V10.2" stroke="#6ea8dc" stroke-width="1.7" stroke-linecap="round" opacity="0.26"/><g transform="translate(233.2,72.7)"><animateMotion dur="12.9s" begin="4.1s" repeatCount="indefinite" path="M0,0 C 3,0.8 5.4,2.4 3.6,3.8 C 1.8,5.2 -1.2,4.2 -2.4,2.4 C -3.6,0.6 -1.8,-0.4 0,0 Z"/><path d="M-3.6 0H3.6M0 -3.6V3.6" stroke="#47d1ff" stroke-width="1.8" stroke-linecap="round" opacity="0.32"/></g><path d="M30.3 9.8H36.7M33.5 6.6V13.0" stroke="#47d1ff" stroke-width="1.7" stroke-linecap="round" opacity="0.26"><animate attributeName="opacity" values="0.26;0.09;0.26" dur="4.6s" begin="5.6s" repeatCount="indefinite"/></path><path d="M284.2 71.4H291.1M287.7 68.0V74.9" stroke="#47d1ff" stroke-width="1.8" stroke-linecap="round" opacity="0.30"/></g>
+<g><animateMotion dur="17s" repeatCount="indefinite" path="M0,0 C 7,-3 15,-2 17,2 C 19,6 12,9 3,8 C -6,7 -9,3 -7,1 C -4.5,-1.5 -2,-1 0,0 Z"/><path d="M44.3 77.5H53.0M48.7 73.1V81.8" stroke="#9beaff" stroke-width="2.3" stroke-linecap="round" opacity="0.58"><animate attributeName="opacity" values="0.58;0.20;0.58" dur="7.5s" begin="1.7s" repeatCount="indefinite"/></path><path d="M265.4 7.7H273.9M269.7 3.5V11.9" stroke="#9beaff" stroke-width="2.2" stroke-linecap="round" opacity="0.55"><animate attributeName="opacity" values="0.55;0.19;0.55" dur="7.5s" begin="1.6s" repeatCount="indefinite"/></path><path d="M225.7 7.1H233.6M229.6 3.2V11.1" stroke="#9beaff" stroke-width="2.0" stroke-linecap="round" opacity="0.46"><animate attributeName="opacity" values="0.46;0.16;0.46" dur="7.5s" begin="1.0s" repeatCount="indefinite"/></path><g transform="translate(152.3,75.5)"><animateMotion dur="8.8s" begin="3.9s" repeatCount="indefinite" path="M0,0 C -2.4,1.2 -5.4,0.8 -6,-0.8 C -6.6,-2.4 -3.6,-3.8 -1.2,-2.8 C 1.2,-1.8 1.2,-0.8 0,0 Z"/><path d="M-4.1 0H4.1M0 -4.1V4.1" stroke="#1273ea" stroke-width="2.1" stroke-linecap="round" opacity="0.51"/></g><path d="M260.8 75.6H269.1M264.9 71.5V79.8" stroke="#47d1ff" stroke-width="2.1" stroke-linecap="round" opacity="0.52"/><path d="M75.1 8.8H83.6M79.4 4.5V13.1" stroke="#9beaff" stroke-width="2.2" stroke-linecap="round" opacity="0.56"><animate attributeName="opacity" values="0.56;0.20;0.56" dur="3.2s" begin="1.4s" repeatCount="indefinite"/></path></g>
+<rect x="0" y="0" width="300" height="84" fill="url(#emlTop)"/>
+<rect x="0" y="0" width="4" height="84" fill="url(#emlBar)" opacity="0.92">
+  <animate attributeName="opacity" values="0.92;0.58;0.92" dur="4.4s" repeatCount="indefinite"/>
+</rect>
+</g>
+<rect x="0.5" y="0.5" width="299.0" height="83.0" rx="15.5" fill="none" stroke="#1b2742" stroke-width="1"/>
+<rect x="22" y="20" width="44" height="44" rx="12" fill="url(#emlPlate)" stroke="#47d1ff" stroke-width="1" stroke-opacity="0.30"/>
+<g transform="translate(31,29) scale(1.0833333)">
+  <rect x="2" y="5" width="20" height="14" rx="3.2" fill="none" stroke="#47d1ff" stroke-width="1.6"/>
+  <path d="M3.6 7L12 13.2L20.4 7" fill="none" stroke="#47d1ff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="84" y="34" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="600" letter-spacing="3.6" fill="#7d8798">CONTACT</text>
+<text x="84" y="57" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="-0.2" fill="#f4f6fb">Email the studio</text>
+<g transform="translate(262,42)">
+  <circle r="13" fill="#47d1ff" fill-opacity="0.055"/>
+  <circle r="13" fill="none" stroke="#47d1ff" stroke-width="1" opacity="0.45">
+    <animate attributeName="opacity" values="0.45;0.86;0.45" dur="3.8s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M-4.2 0H4.2M0.7 -3.5L4.2 0L0.7 3.5" fill="none" stroke="#47d1ff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.90"/>
+</g>
+</svg>

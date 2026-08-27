@@ -1,0 +1,7 @@
+# Local preview and render scaffolding. Not part of the published profile.
+_preview/
+_sheet.html
+_btn.html
+_*.html
+*.tmp
+.DS_Store

@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="26" viewBox="0 0 880 26"><title>Vision Force section divider</title>
+<defs>
+  <linearGradient id="dvCy" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#47d1ff"/>
+    <stop offset="1" stop-color="#1273ea"/>
+  </linearGradient>
+  <linearGradient id="dvVi" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#a855f7"/>
+    <stop offset="1" stop-color="#6d28d9"/>
+  </linearGradient>
+  <linearGradient id="dvBg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0d1a2e"/>
+    <stop offset="1" stop-color="#0a1425"/>
+  </linearGradient>
+  <!-- DYNAMIC BRAND GRADIENT. All three stops share dur 15s so they travel together
+       and the ramp never tears. The whole ramp also rotates on a 23s cycle. -->
+  <linearGradient id="dvMark" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#f4f6fb">
+      <animate attributeName="stop-color"
+        values="#f4f6fb;#e9d8ff;#d8f4ff;#ffe4f2;#f4f6fb"
+        dur="15s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="0.45" stop-color="#a855f7">
+      <animate attributeName="stop-color"
+        values="#a855f7;#47d1ff;#ff2e4d;#8b5cff;#a855f7"
+        dur="15s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="1" stop-color="#6d28d9">
+      <animate attributeName="stop-color"
+        values="#6d28d9;#1273ea;#a02bfe;#0ea5b7;#6d28d9"
+        dur="15s" repeatCount="indefinite"/>
+    </stop>
+    <animateTransform attributeName="gradientTransform" type="rotate"
+      values="0 0.5 0.5; 360 0.5 0.5" dur="23s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="dvSpark" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#9beaff"/>
+    <stop offset="0.55" stop-color="#47d1ff"/>
+    <stop offset="1" stop-color="#7aa2ff"/>
+  </linearGradient>
+  <radialGradient id="dvTop" cx="0.5" cy="0" r="1">
+    <stop offset="0" stop-color="#ffffff" stop-opacity="0.075"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="dvDots" width="14" height="14" patternUnits="userSpaceOnUse">
+    <circle cx="7" cy="7" r="1.1" fill="#9aa8c4" opacity="0.13"/>
+  </pattern>
+  <pattern id="dvDotsFine" width="16" height="16" patternUnits="userSpaceOnUse">
+    <circle cx="4" cy="4" r="0.8" fill="#9aa8c4" opacity="0.07"/>
+  </pattern>
+  <linearGradient id="dvMaskH" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0"    stop-color="#000000"/>
+    <stop offset="0.34" stop-color="#3a3a3a"/>
+    <stop offset="0.72" stop-color="#c8c8c8"/>
+    <stop offset="1"    stop-color="#ffffff"/>
+  </linearGradient>
+  <mask id="dvFadeR" maskContentUnits="objectBoundingBox">
+    <rect x="0" y="0" width="1" height="1" fill="url(#dvMaskH)"/>
+  </mask>
+  <filter id="dvSoft" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="7"/>
+  </filter>
+  <filter id="dvSoftTight" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="2.6"/>
+  </filter>
+</defs>
+
+<!-- BASELINE: the dashed hairline, inset 60 from each end, with a slow crawl. -->
+<line x1="60" y1="13" x2="820" y2="13" stroke="#4a6f96" stroke-width="1" stroke-dasharray="1 7" stroke-linecap="round" opacity="0.55">
+  <animate attributeName="stroke-dashoffset" from="0" to="-8" dur="5.2s" repeatCount="indefinite"/>
+</line>
+
+<!-- LAYER 1: far. Slowest, widest closed orbit, travelling up and to the right and
+     returning underneath. The orbit is biased ABOVE the start point because this
+     layer carries the lowest plusses and the strip is only 26 tall. -->
+<g>
+  <animateMotion dur="29s" repeatCount="indefinite"
+    path="M0,0 C 4,-2 9,-2.6 11,-1.8 C 13,-1 8,-0.2 3,-0.4 C -2,-0.6 -4,-0.4 0,0 Z"/>
+  <g transform="translate(271.6,6.4)">
+    <animateMotion dur="11s" begin="0.7s" repeatCount="indefinite"
+      path="M0,0 C 2,-1 5,-0.6 5,1 C 5,2.6 2,3 0,2.2 C -2,1.4 -2,0.6 0,0 Z"/>
+    <path d="M-3.1 0H3.1M0 -3.1V3.1" stroke="#6ea8dc" stroke-width="1.6" stroke-linecap="round" opacity="0.34"/>
+  </g>
+  <path d="M504.4 18.9H510.4M507.4 15.9V21.9" stroke="#6ea8dc" stroke-width="1.6" stroke-linecap="round" opacity="0.28"/>
+  <path d="M765.2 20.2H771.6M768.4 17V23.4" stroke="#8b5cff" stroke-width="1.7" stroke-linecap="round" opacity="0.31"/>
+  <path d="M165.4 19.6H172M168.7 16.3V22.9" stroke="#3b82f6" stroke-width="1.7" stroke-linecap="round" opacity="0.38"/>
+  <path d="M339.5 9.4H345.5M342.5 6.4V12.4" stroke="#34d399" stroke-width="1.6" stroke-linecap="round" opacity="0.25"/>
+  <g transform="translate(704.9,6.7)">
+    <animateMotion dur="9s" begin="4.2s" repeatCount="indefinite"
+      path="M0,0 C -2,1 -5,0.8 -5,-0.8 C -5,-2.4 -2,-2.8 0,-2 C 2,-1.2 2,-0.6 0,0 Z"/>
+    <animateTransform attributeName="transform" type="rotate"
+      values="0;360" dur="24s" repeatCount="indefinite" additive="sum"/>
+    <path d="M-3.4 0H3.4M0 -3.4V3.4" stroke="#3b82f6" stroke-width="1.8" stroke-linecap="round" opacity="0.4">
+      <animate attributeName="opacity" values="0.4;0.14;0.4" dur="5.8s" begin="2.4s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <path d="M803.1 14.8H809.5M806.3 11.6V18" stroke="#a855f7" stroke-width="1.7" stroke-linecap="round" opacity="0.36">
+    <animate attributeName="opacity" values="0.36;0.13;0.36" dur="4.6s" begin="0.4s" repeatCount="indefinite"/>
+  </path>
+</g>
+
+<!-- LAYER 2: mid. Medium speed, larger orbit, travelling the OPPOSITE way round:
+     out to the left and down, home along the top. -->
+<g>
+  <animateMotion dur="21s" repeatCount="indefinite"
+    path="M0,0 C -5,1.2 -12,1.4 -14,0.2 C -16,-1 -11,-3 -5,-2.8 C 1,-2.6 3,-1.2 0,0 Z"/>
+  <g transform="translate(262.4,11.9)">
+    <animateMotion dur="8s" begin="2.4s" repeatCount="indefinite"
+      path="M0,0 C 2.4,1.2 5,0.8 5,-0.8 C 5,-2.4 2,-2.8 -0.4,-2 C -2.8,-1.2 -2,-0.6 0,0 Z"/>
+    <path d="M-4 0H4M0 -4V4" stroke="#3b82f6" stroke-width="2.2" stroke-linecap="round" opacity="0.45">
+      <animate attributeName="opacity" values="0.45;0.16;0.45" dur="3.9s" begin="1.3s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <path d="M276.2 17.4H283.4M279.8 13.8V21" stroke="#a855f7" stroke-width="1.9" stroke-linecap="round" opacity="0.52"/>
+  <path d="M80.3 8.6H88.1M84.2 4.7V12.5" stroke="#47d1ff" stroke-width="2.1" stroke-linecap="round" opacity="0.47">
+    <animate attributeName="opacity" values="0.47;0.17;0.47" dur="6.4s" begin="0s" repeatCount="indefinite"/>
+  </path>
+  <path d="M416.1 19.3H423.1M419.6 15.8V22.8" stroke="#34d399" stroke-width="1.9" stroke-linecap="round" opacity="0.56">
+    <animate attributeName="opacity" values="0.56;0.2;0.56" dur="5.1s" begin="3.1s" repeatCount="indefinite"/>
+  </path>
+  <g transform="translate(596.8,12.4)">
+    <animateMotion dur="12.5s" begin="6.1s" repeatCount="indefinite"
+      path="M0,0 C -2.4,-1.2 -5,-0.8 -5,0.8 C -5,2.4 -2,2.8 0.4,2 C 2.8,1.2 2,0.6 0,0 Z"/>
+    <animateTransform attributeName="transform" type="rotate"
+      values="0;360" dur="26s" repeatCount="indefinite" additive="sum"/>
+    <path d="M-4.1 0H4.1M0 -4.1V4.1" stroke="#3b82f6" stroke-width="2.2" stroke-linecap="round" opacity="0.58"/>
+  </g>
+  <path d="M755.1 7.9H762.7M758.9 4.1V11.7" stroke="#a855f7" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  <path d="M664.6 18.1H672M668.3 14.4V21.8" stroke="#47d1ff" stroke-width="2" stroke-linecap="round" opacity="0.42"/>
+</g>
+
+<!-- LAYER 3: near. Fastest and widest, a third direction again: out low to the right,
+     home high across the top. Nothing in this file ever reverses through its start. -->
+<g>
+  <animateMotion dur="14s" repeatCount="indefinite"
+    path="M0,0 C 6,1.8 14,2.2 19,0.8 C 24,-0.6 18,-3 10,-3.2 C 2,-3.4 -4,-1.4 0,0 Z"/>
+  <g transform="translate(126.4,14.5)">
+    <animateMotion dur="10s" begin="1.5s" repeatCount="indefinite"
+      path="M0,0 C 2,-1 5,-0.6 5,1 C 5,2.6 2,3 0,2.2 C -2,1.4 -2,0.6 0,0 Z"/>
+    <path d="M-5 0H5M0 -5V5" stroke="#a855f7" stroke-width="2.8" stroke-linecap="round" opacity="0.58"/>
+    <animateTransform attributeName="transform" type="scale" additive="sum"
+      values="1;1.15;1" dur="6.7s" begin="2.4s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1"
+      keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+    <animateTransform attributeName="transform" type="rotate"
+      values="0;360" dur="24s" repeatCount="indefinite" additive="sum"/>
+  </g>
+  <path d="M497.7 9.2H507.8M502.7 4.1V14.2" stroke="#8b5cff" stroke-width="2.8" stroke-linecap="round" opacity="0.56">
+    <animate attributeName="opacity" values="0.56;0.2;0.56" dur="7.5s" begin="1.8s" repeatCount="indefinite"/>
+  </path>
+  <path d="M772.1 16.7H780.9M776.5 12.3V21.1" stroke="#47d1ff" stroke-width="2.4" stroke-linecap="round" opacity="0.62"/>
+  <!-- HERO PLUS: dead centre, x 440 is exactly half of 880. Largest, brightest, thickest,
+       and the one element in this file carrying the dynamic brand gradient. -->
+  <g transform="translate(440,13)">
+    <animateMotion dur="13s" repeatCount="indefinite"
+      path="M0,0 C -2,1 -5,0.8 -5,-0.8 C -5,-2.4 -2,-2.8 0,-2 C 2,-1.2 2,-0.6 0,0 Z"/>
+    <path d="M-5 0H5M0 -5V5" stroke="url(#dvMark)" stroke-width="2.8" stroke-linecap="round" opacity="0.9"/>
+    <animateTransform attributeName="transform" type="scale" additive="sum"
+      values="1;1.18;1" dur="6.2s" begin="0.6s" repeatCount="indefinite"
+      calcMode="spline" keyTimes="0;0.5;1"
+      keySplines="0.4 0 0.2 1; 0.4 0 0.2 1"/>
+    <animateTransform attributeName="transform" type="rotate"
+      values="0;360" dur="28s" repeatCount="indefinite" additive="sum"/>
+  </g>
+</g>
+</svg>

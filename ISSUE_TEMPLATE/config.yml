@@ -1,0 +1,17 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "Vision Force Discord"
+    url: "https://discord.gg/ABmyD3NRGV"
+    about: "Community chat for questions, clips and general help. Social space, not a support desk."
+  - name: "Email Vision Force Studio"
+    url: "mailto:contact@visionforceofficial.com"
+    about: "The monitored channel. Use it for account problems, private matters, press, or anything needing a written answer."
+  - name: "Public roadmap and voting"
+    url: "https://visionforceofficial.com"
+    about: "Post gameplay and roadmap ideas here and vote on what gets built next."
+  - name: "Service status"
+    url: "https://status.visionforceofficial.com"
+    about: "Check here first if a Vision Force site or service is not responding."
+  - name: "Report a security issue"
+    url: "https://github.com/Vision-Force/.github/blob/main/SECURITY.md"
+    about: "Do not open a public issue for a vulnerability. Follow the disclosure policy."

@@ -1,0 +1,99 @@
+name: "Feature request"
+description: "Propose a change to code, tooling or documentation in a Vision Force repository."
+labels: ["enhancement", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gameplay and roadmap ideas belong on the public roadmap at
+        https://visionforceofficial.com, where they can be voted on. That vote is
+        what decides build order.
+
+        Use this form for changes to code, tooling or documentation in a Vision
+        Force repository.
+
+        Start with the problem, not the solution. A proposal that names its own
+        trade offs is far more likely to be picked up than one that only lists
+        benefits.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: "The problem"
+      description: "What is awkward today, who it affects, and what you tried instead."
+      placeholder: "Track times are stored per session, so a personal best is lost whenever the game is restarted."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: "Proposed change"
+      description: "What you would like to happen. Be concrete about behaviour, not wording."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Alternatives considered"
+      description: "Other approaches you weighed, and why you set them aside. Write none if you have not weighed any."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: project
+    attributes:
+      label: "Project"
+      options:
+        - "Vaelora Velocity"
+        - "LUX3"
+        - "The Reality Cross"
+        - "Meridian"
+        - "Website"
+        - "Other"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: size
+    attributes:
+      label: "Rough size, as you see it"
+      description: "A guess is fine. It helps with ordering, nothing more."
+      options:
+        - "Small, a single file or setting"
+        - "Medium, one system"
+        - "Large, cuts across several systems"
+        - "No idea"
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: "Anything else"
+      description: "Optional. Sketches, references, links, or prior discussion."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: "Scope"
+      options:
+        - label: "I searched the open and closed issues and did not find this."
+          required: true
+        - label: "This is a change to a Vision Force repository, not a gameplay or roadmap idea for the voting site."
+          required: true
+        - label: "This proposal needs no Epic Games code or assets to implement."
+          required: true
+        - label: "I agree to follow the Code of Conduct."
+          required: true
+
+  - type: checkboxes
+    id: help
+    attributes:
+      label: "Would you like to work on it"
+      options:
+        - label: "I am willing to open a pull request for this."
+          required: false

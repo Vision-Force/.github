@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="84" viewBox="0 0 300 84">
+<title>Vision Force link card, service status</title>
+<defs>
+  <linearGradient id="stsCard" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0d1a2e"/>
+    <stop offset="1" stop-color="#0a1425"/>
+  </linearGradient>
+  <linearGradient id="stsBar" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#38f0a0">
+      <animate attributeName="stop-color" values="#38f0a0;#10b981;#38f0a0" dur="12s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="1" stop-color="#10b981">
+      <animate attributeName="stop-color" values="#10b981;#38f0a0;#10b981" dur="12s" repeatCount="indefinite"/>
+    </stop>
+  </linearGradient>
+  <linearGradient id="stsPlate" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#38f0a0" stop-opacity="0.16"/>
+    <stop offset="1" stop-color="#10b981" stop-opacity="0.05"/>
+  </linearGradient>
+  <radialGradient id="stsTop" cx="0.5" cy="0" r="1">
+    <stop offset="0" stop-color="#ffffff" stop-opacity="0.055"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+  <clipPath id="stsClip"><rect x="0" y="0" width="300" height="84" rx="16"/></clipPath>
+</defs>
+<rect x="0" y="0" width="300" height="84" rx="16" fill="url(#stsCard)"/>
+<g clip-path="url(#stsClip)">
+<g><animateMotion dur="27s" repeatCount="indefinite" path="M0,0 C 4,-1.6 9,-1 10,1 C 11,3 7,5 2,4.5 C -3,4 -4,2 -2,0.8 C -1,0.3 -0.5,0.15 0,0 Z"/><path d="M191.8 13.9H197.9M194.9 10.9V17.0" stroke="#6ea8dc" stroke-width="1.6" stroke-linecap="round" opacity="0.23"/><path d="M99.5 14.9H106.5M103.0 11.4V18.4" stroke="#38f0a0" stroke-width="1.8" stroke-linecap="round" opacity="0.31"><animate attributeName="opacity" values="0.31;0.11;0.31" dur="3.2s" begin="3.0s" repeatCount="indefinite"/></path><path d="M120.6 14.4H126.9M123.7 11.3V17.6" stroke="#10b981" stroke-width="1.7" stroke-linecap="round" opacity="0.25"><animate attributeName="opacity" values="0.25;0.09;0.25" dur="5.1s" begin="0.3s" repeatCount="indefinite"/></path><path d="M282.8 7.4H289.9M286.4 3.9V10.9" stroke="#6ea8dc" stroke-width="1.8" stroke-linecap="round" opacity="0.31"><animate attributeName="opacity" values="0.31;0.11;0.31" dur="4.6s" begin="1.9s" repeatCount="indefinite"/></path><path d="M28.2 77.0H35.5M31.9 73.4V80.7" stroke="#38f0a0" stroke-width="1.9" stroke-linecap="round" opacity="0.33"><animate attributeName="opacity" values="0.33;0.12;0.33" dur="7.5s" begin="4.1s" repeatCount="indefinite"/></path><g transform="translate(80.9,16.9)"><animateMotion dur="12.9s" begin="2.4s" repeatCount="indefinite" path="M0,0 C 3,0.8 5.4,2.4 3.6,3.8 C 1.8,5.2 -1.2,4.2 -2.4,2.4 C -3.6,0.6 -1.8,-0.4 0,0 Z"/><path d="M-3.1 0H3.1M0 -3.1V3.1" stroke="#10b981" stroke-width="1.6" stroke-linecap="round" opacity="0.24"/></g></g>
+<g><animateMotion dur="17s" repeatCount="indefinite" path="M0,0 C 7,-3 15,-2 17,2 C 19,6 12,9 3,8 C -6,7 -9,3 -7,1 C -4.5,-1.5 -2,-1 0,0 Z"/><path d="M232.0 9.6H240.7M236.4 5.2V13.9" stroke="#38f0a0" stroke-width="2.3" stroke-linecap="round" opacity="0.58"/><g transform="translate(177.3,75.2)"><animateMotion dur="12.1s" begin="7.7s" repeatCount="indefinite" path="M0,0 C -2.2,-1 -4.8,-0.4 -4.8,1.4 C -4.8,3.2 -1.8,3.8 0.6,2.8 C 3,1.8 2.4,0.4 0,0 Z"/><path d="M-4.1 0H4.1M0 -4.1V4.1" stroke="#6ea8dc" stroke-width="2.1" stroke-linecap="round" opacity="0.51"/></g><path d="M109.1 77.9H117.5M113.3 73.6V82.1" stroke="#34d399" stroke-width="2.2" stroke-linecap="round" opacity="0.55"><animate attributeName="opacity" values="0.55;0.19;0.55" dur="6.4s" begin="3.5s" repeatCount="indefinite"/></path><path d="M80.0 77.1H88.5M84.2 72.8V81.4" stroke="#6ea8dc" stroke-width="2.2" stroke-linecap="round" opacity="0.56"><animate attributeName="opacity" values="0.56;0.20;0.56" dur="5.1s" begin="1.3s" repeatCount="indefinite"/></path><path d="M162.4 17.8H170.5M166.5 13.8V21.9" stroke="#34d399" stroke-width="2.1" stroke-linecap="round" opacity="0.50"><animate attributeName="opacity" values="0.50;0.17;0.50" dur="5.1s" begin="5.7s" repeatCount="indefinite"/></path><path d="M265.8 11.2H273.7M269.8 7.3V15.2" stroke="#6ea8dc" stroke-width="2.0" stroke-linecap="round" opacity="0.45"><animate attributeName="opacity" values="0.45;0.16;0.45" dur="4.6s" begin="4.5s" repeatCount="indefinite"/></path></g>
+<rect x="0" y="0" width="300" height="84" fill="url(#stsTop)"/>
+<rect x="0" y="0" width="4" height="84" fill="url(#stsBar)" opacity="0.92">
+  <animate attributeName="opacity" values="0.92;0.58;0.92" dur="4.4s" repeatCount="indefinite"/>
+</rect>
+</g>
+<rect x="0.5" y="0.5" width="299.0" height="83.0" rx="15.5" fill="none" stroke="#1b2742" stroke-width="1"/>
+<rect x="22" y="20" width="44" height="44" rx="12" fill="url(#stsPlate)" stroke="#38f0a0" stroke-width="1" stroke-opacity="0.30"/>
+<g transform="translate(31,29) scale(1.0833333)">
+  <polyline points="1.6,13 6.2,13 8.5,6.4 11.7,18.6 14.1,13 18.6,13" fill="none" stroke="#38f0a0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="21.2" cy="13" r="1.9" fill="#38f0a0" opacity="0.95">
+    <animate attributeName="opacity" values="0.95;0.22;0.95" dur="2.6s" repeatCount="indefinite"/>
+  </circle>
+</g>
+<text x="84" y="34" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="600" letter-spacing="3.6" fill="#7d8798">UPTIME</text>
+<text x="84" y="57" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="-0.2" fill="#f4f6fb">Service status</text>
+<g transform="translate(262,42)">
+  <circle r="13" fill="#38f0a0" fill-opacity="0.055"/>
+  <circle r="13" fill="none" stroke="#38f0a0" stroke-width="1" opacity="0.45">
+    <animate attributeName="opacity" values="0.45;0.86;0.45" dur="3.8s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M-4.2 0H4.2M0.7 -3.5L4.2 0L0.7 3.5" fill="none" stroke="#38f0a0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.90"/>
+</g>
+</svg>
