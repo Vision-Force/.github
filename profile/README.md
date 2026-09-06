@@ -159,10 +159,10 @@ thing that is always nearly ready, so the plan is trimmed rather than the standa
 <div align="center">
 
 <a href="https://visionforceofficial.com"><img src="https://raw.githubusercontent.com/Vision-Force/.github/main/profile/assets/btn-website.svg" width="280" alt="Visit the Vision Force studio website" /></a>
-<a href="https://discord.gg/ABmyD3NRGV"><img src="https://raw.githubusercontent.com/Vision-Force/.github/main/profile/assets/btn-discord.svg" width="280" alt="Join the Vision Force Discord" /></a>
+<a href="https://discord.gg/Kn3yY2vYGY"><img src="https://raw.githubusercontent.com/Vision-Force/.github/main/profile/assets/btn-discord.svg" width="280" alt="Join the Vision Force Discord" /></a>
 <a href="https://www.youtube.com/@VaeloraVelocity"><img src="https://raw.githubusercontent.com/Vision-Force/.github/main/profile/assets/btn-youtube.svg" width="280" alt="Watch the devlogs on YouTube" /></a>
 <br/>
-<a href="https://www.tiktok.com/@vaeloravelocity"><img src="https://raw.githubusercontent.com/Vision-Force/.github/main/profile/assets/btn-tiktok.svg" width="280" alt="Watch the clips on TikTok" /></a>
+<a href="https://www.tiktok.com/@shrezeeetheglitsher"><img src="https://raw.githubusercontent.com/Vision-Force/.github/main/profile/assets/btn-tiktok.svg" width="280" alt="Watch the clips on TikTok" /></a>
 <a href="https://status.visionforceofficial.com"><img src="https://raw.githubusercontent.com/Vision-Force/.github/main/profile/assets/btn-status.svg" width="280" alt="Check the service status page" /></a>
 <a href="mailto:contact@visionforceofficial.com"><img src="https://raw.githubusercontent.com/Vision-Force/.github/main/profile/assets/btn-email.svg" width="280" alt="Email the studio" /></a>
 
