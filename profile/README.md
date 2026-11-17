@@ -101,8 +101,8 @@ and in the roadmap, where it can be argued with and voted on.
 
 
 </div>
-
-Rocket Racing Reborn, codename Meridian, is the reason this organisation exists actually
+<img src="https://meridian.visionforceofficial.com/brand/surfaces/game.jpg" width="100%" alt="Rocket Racing Reborn" />
+Project Overdrive, codename Reborn, is the reason this organisation exists actually
 
 It is an original re implementation of the EPIC network services that an archived Fortnite
 build expects to talk to. so that an old build can
